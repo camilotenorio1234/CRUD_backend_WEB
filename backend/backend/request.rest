@@ -1,0 +1,102 @@
+//metodos de interaccion para los usuarios
+###
+GET http://localhost:9000/user/listAll
+
+###
+GET http://localhost:9000/user/query/1
+
+###
+POST http://localhost:9000/user/create
+Content-Type: application/json
+
+{
+    "username": "Glimpse of Us",
+    "password": "Tragedia",
+    "email": "Porrúa"
+}
+
+###
+PATCH http://localhost:9000/user/update/1
+Content-Type: application/json
+
+{
+   "username": "Glimpse of Us",
+    "password": "Tragedia",
+    "email": "Porrúa"
+}
+
+###
+DELETE http://localhost:9000/user/delete/1
+
+
+
+
+//Metodos de interaccion para los libros
+###
+GET http://localhost:9000/Libros/listAll
+
+###
+GET http://localhost:9000/Libros//query/1
+
+###
+POST http://localhost:9000/Libros/create
+Content-Type: application/json
+
+{
+    "titulo": "Glimpse of Us",
+    "tipo": "Tragedia",
+    "editorial": "Porrúa",
+    "year": "2021",
+    "autor": "Sófocles"
+}
+
+###
+PATCH http://localhost:9000/Libros/update/1
+Content-Type: application/json
+
+{
+   "titulo": "Glimpse of Us",
+    "tipo": "Pop",
+    "disquera": "Warner",
+    "year": "2022",
+    "autor": "Joji"
+}
+
+###
+DELETE http://localhost:9000/Libros/delete/1
+
+
+
+//Metodos de interaccion para la musica
+###
+GET http://localhost:9000/Musica/listAll
+
+###
+GET http://localhost:9000/Musica//query/1
+
+###
+POST http://localhost:9000/Musica/create
+Content-Type: application/json
+
+{
+    "titulo": "Glimpse of Us",
+    "tipo": "Pop",
+    "disquera": "Warner",
+    "year": "2021",
+    "autor": "Joji"
+}
+
+###
+PATCH http://localhost:9000/Musica/update/1
+Content-Type: application/json
+
+{
+   "titulo": "Glimpse of Us",
+    "tipo": "Pop",
+    "disquera": "Warner",
+    "year": "2022",
+    "autor": "Joji"
+}
+
+###
+DELETE http://localhost:9000/Musica/delete/1
