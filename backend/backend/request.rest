@@ -2,27 +2,29 @@
 ###
 GET http://localhost:9000/user/listAll
 
+
 ###
-GET http://localhost:9000/user/query/1
+GET http://localhost:9000/user/query/2
+
 
 ###
 POST http://localhost:9000/user/create
 Content-Type: application/json
 
 {
-    "username": "Glimpse of Us",
-    "password": "Tragedia",
-    "email": "Porrúa"
+    "username": "juan camilo",
+    "password": "Tragedia1234",
+    "email": "pepegalindo@gmail.com"
 }
 
 ###
-PATCH http://localhost:9000/user/update/1
+PATCH http://localhost:9000/user/update/3
 Content-Type: application/json
 
 {
-   "username": "Glimpse of Us",
-    "password": "Tragedia",
-    "email": "Porrúa"
+   "username": "juan carlos",
+    "password": "Tragedia1234",
+    "email": "pepegalindo@gmail.com"
 }
 
 ###
@@ -36,7 +38,7 @@ DELETE http://localhost:9000/user/delete/1
 GET http://localhost:9000/Libros/listAll
 
 ###
-GET http://localhost:9000/Libros//query/1
+GET http://localhost:9000/Libros//query/2
 
 ###
 POST http://localhost:9000/Libros/create
@@ -51,11 +53,11 @@ Content-Type: application/json
 }
 
 ###
-PATCH http://localhost:9000/Libros/update/1
+PATCH http://localhost:9000/Libros/update/2
 Content-Type: application/json
 
 {
-   "titulo": "Glimpse of Us",
+   "titulo": "vale",
     "tipo": "Pop",
     "disquera": "Warner",
     "year": "2022",
